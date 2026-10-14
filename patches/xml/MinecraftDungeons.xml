@@ -3,7 +3,7 @@
   <TitleID>
     <ID>CUSA18779</ID>
   </TitleID>
-  <Metadata Title="Minecraft Dungeons" Name="Offline Tower daily rotation" Note="Preview for exact CUSA18779 01.29 eboot SHA-256 4d7e4dc779bec6e96f5fa5e53af8f48096de1edbf383f3318d7ba5901e89e5d3. Custom offline daily Tower; use correct console time and enable the countdown companion." Author="MoHadiShibli" PatchVer="0.8" AppVer="01.29" AppElf="eboot.bin">
+  <Metadata Title="Minecraft Dungeons" Name="Offline Tower daily rotation" Note="Custom offline daily Tower for CUSA18779 01.29; use correct console time and enable the countdown companion." Author="MoHadiShibli" PatchVer="0.8" AppVer="01.29" AppElf="eboot.bin">
     <PatchList>
       <Line Type="bytes" Address="0x0932db00" Value="54574831010063000c000800200038036803b803c8039a04f20d00000100000054050000000000006705000000000000750500000000000087050000000000009905000000000000c605ab0500010000f105d60500010000210601060003fb0044062d06000100006f065506000100009a067f0600010000c606aa0600010000d606aa06000100000207e606000100002c071207000100003e0712070001000050071207000100007a0762070003ff00a207860700010000cd07b20700010000fa07dd070001000026080a080001000053083608000100008108630800010000ad08910800010000db08bd08000100000709eb08000100002c091709000100" />
       <Line Type="bytes" Address="0x0932dbff" Value="0057093d09000100008d0967090001000067059909010100009a09e60600010000a207e60601010000aa09e60600010000ba09aa0601010000ca09aa06000100008d09da0900010000040aeb09000100004406eb09000100002c09eb0901010000310a150a00010000410a150a01010000510a150a000100006f06150a000100002106610a00010000940a780a000100008108780a00010000a40a780a010100002608780a000100005308b40a00010000ea0acf0a01010000fa07fa0a00010000300b150b000100007a07400b00010000aa09630b00010000a207630b000100009a09630b010100000207630b00010000920b7d0b000100002c097d0b0101" />
@@ -69,7 +69,7 @@
       <Line Type="bytes" Address="0x018f2541" Value="e86a1a1007" />
     </PatchList>
   </Metadata>
-  <Metadata Title="Minecraft Dungeons" Name="Player combat immunity (optional)" AppVer="01.29" AppElf="eboot.bin" Author="MoHadiShibli" PatchVer="1.0" Note="Optional player combat damage immunity; independent toggle. Exact eboot SHA-256 4d7e4dc779bec6e96f5fa5e53af8f48096de1edbf383f3318d7ba5901e89e5d3. Disable and restart to restore normal damage. Does not prevent every scripted death or hazard.">
+  <Metadata Title="Minecraft Dungeons" Name="Player combat immunity" AppVer="01.29" AppElf="eboot.bin" Author="MoHadiShibli" PatchVer="1.0" Note="Player combat damage immunity. Disable and restart to restore normal damage. Does not prevent every scripted death or hazard.">
     <PatchList>
       <Line Type="bytes" Address="0x089f3e70" Value="49813f5863b2080f84d31d23f8418b8780000000e9b61c23f8" />
       <Line Type="bytes" Address="0x00c25b38" Value="e933e3dc079090" />
